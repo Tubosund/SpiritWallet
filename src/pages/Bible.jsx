@@ -2,7 +2,7 @@ import React from 'react'
 
 function bible() {
   return (
-    <div>bible</div>
+    <div></div>
   )
 }
 

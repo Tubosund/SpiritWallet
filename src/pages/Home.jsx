@@ -1,28 +1,10 @@
 import React, { useEffect } from 'react'
-import $ from 'jquery'
 import CollapsibleMenu from '../components/CollapsibleMenu'
 
 function Home(){ 
 return (
   <div>
   <>
-  {/* Required meta tags */}
-  <meta charSet="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
-        <title>SpiritWallet</title>
-  <link
-    href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet"
-  />
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EQh7TCQayCWfBqbwAWiGsOYvljEJqcnzwWN5WT6x3ywQbt4YmPW+hPBP7Ju" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/style-starter.css" />
     {/* banner section */}
   <section className="w3l-banner pt-5">
     <div className="container">
@@ -40,7 +22,7 @@ return (
             Nurture your spirit and practice faithful giving.
           </p>
           <div className="mt-5">
-            <a className="btn btn-style-white" href="about.html">
+            <a className="btn btn-style-white" href="/signup">
               Get Started
             </a>
           </div>
@@ -133,7 +115,7 @@ return (
                   className="fa fa-volume-control-phone mr-1"
                   aria-hidden="true"
                 />
-                <a className="call-style-w3" href="tel:+1(23) 456 789 0000">
+                <a className="call-style-w3" href="tel:+2348109999383">
                   +2348109999383
                 </a>
               </li>
@@ -152,30 +134,6 @@ return (
       </div>
     </div>
   </section>
-  <button onclick="topFunction()" id="movetop" title="Go to top">
-  <span className="fa fa-level-up" aria-hidden="true" />
-</button>
-
-  {/* //call section */}
-  {/* footer */}
-  {/* //footer */}
-  {/* Js scripts */}
-  {/* move top */}
-  {/* common jquery plugin */}
-  {/* //common jquery plugin */}
-  {/* theme switch js (light and dark)*/}
-  {/* //theme switch js (light and dark)*/}
-  {/* magnific popup */}
-  {/* //magnific popup */}
-  {/* MENU-JS */}
-  {/* //MENU-JS */}
-  {/* counter for stats */}
-  {/* //counter for stats */}
-  {/* disable body scroll which navbar is in active */}
-  {/* //disable body scroll which navbar is in active */}
-  {/*bootstrap*/}
-  {/* //bootstrap*/}
-  {/* //Js scripts */}
 </>
 </div>
   )

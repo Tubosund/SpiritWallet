@@ -1,9 +1,52 @@
-import React from 'react'
+import React from 'react';
 
-function dashboard() {
+const Dashboard = () => {
   return (
-    <div>dashboard</div>
-  )
-}
+    <div>
+  <div className="inner-banner">
+  <section className="w3l-breadcrumb">
+    <div className="container">
+      <h4 className="inner-text-title font-weight-bold text-white mb-sm-3 mb-2">
+      Dashboard
+      </h4>
+      <ul className="breadcrumbs-custom-path">
+        <li>
+          <a href="/home">Home</a>
+        </li>
+        <li className="active">
+          <span className="fa fa-chevron-right mx-2" aria-hidden="true" />{" "}
+          Dashboard
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+      {/* Dashboard content */}
+      <div className="dashboard">
+        <div className="boxes-container">
+          {/* Tithe Box */}
+          <div className="dashboard-box">
+            <div className="box-header">
+              <h2>
+                <a href="/tithe">Tithe</a>
+                </h2>
+              <i className="fas fa-money-bill-alt"></i> {/* Money icon */}
+            </div>
+          </div>
 
-export default dashboard
+          {/* Donations Box */}
+          <div className="dashboard-box">
+            <div className="box-header">
+            <h2>
+              <a href="/donations">Donations</a>
+            </h2>
+              <i className="fas fa-money-bill-alt"></i> {/* Money icon */}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Dashboard;

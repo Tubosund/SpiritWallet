@@ -1,43 +1,31 @@
-import React, { useState, useEffect, useRef } from 'react';
-import CollapsibleMenu from './CollapsibleMenu';
+import React, { useState, useEffect } from 'react';
+import CollapsibleMenu from './CollapsibleMenu'; // Assuming CollapsibleMenu is a separate component
 
 const Header = () => {
-  const [isDarkTheme, setIsDarkTheme] = useState(false); // State for theme toggle
-  const textElementRef = useRef(null); // Ref for the typing text element
-
-  // Simulate typing effect using useEffect
-  useEffect(() => {
-    const textElement = textElementRef.current;
-    if (textElement) {
-      const text = textElement.textContent.trim().split('');
-      let newString = "";
-
-      textElement.textContent = '|';
-
-      setTimeout(() => {
-        textElement.style.opacity = 1;
-        for (let i = 0; i < text.length; i++) {
-          setTimeout(() => {
-            newString += text[i];
-            textElement.textContent = newString;
-          }, i * 200); // Adjust typing speed here
-        }
-      }, 1500);
-    }
-  }, []);
+  const [isDarkTheme, setIsDarkTheme] = useState(false); // Initial theme state
 
   const toggleTheme = () => {
     setIsDarkTheme(!isDarkTheme);
   };
 
+  useEffect(() => {
+    // Optional: Persist theme preference in local storage
+    const storedTheme = localStorage.getItem('spiritwallet-theme');
+    if (storedTheme) {
+      setIsDarkTheme(storedTheme === 'dark');
+    }
+  }, []); // Empty dependency array to run only on initial render
+
+  const themeClass = isDarkTheme ? 'dark-theme' : '';
+
   return (
-    <div className={`header ${isDarkTheme ? 'dark-theme' : ''}`}>
+    <div className={`header ${themeClass} header-background`}>
       <header id="site-header" className="fixed-top">
         <div className="container">
           <nav className="navbar navbar-expand-lg stroke">
-            <h1>
-              <a className="navbar-brand gold-text" href="/home" style={{color: 'yellow'}}>
-                <i className="fa-solid fa-bible mr-1" aria-hidden="true" />
+            <h1 className="mr-3">
+              <a className="navbar-brand gold-text" href="/home" style={{ color: 'yellow' }}>
+                <i className="fa-solid fa-bible mr-1" aria-hidden="true"></i>
                 SpiritWallet
               </a>
             </h1>

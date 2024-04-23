@@ -4,26 +4,6 @@ function contact() {
   return (
     <div>
       <>
-  <meta charSet="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
-  <title>
-    SpiritWallet
-  </title>
-  {/* google-fonts */}
-  <link
-    href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet"
-  />
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EQh7TCQayCWfBqbwAWiGsOYvljEJqcnzwWN5WT6x3ywQbt4YmPW+hPBP7Ju" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/css/style-starter.css" />
-  {/* inner banner */}
   <div className="inner-banner">
     <section className="w3l-breadcrumb">
       <div className="container">
@@ -94,7 +74,7 @@ function contact() {
         </div>
         <div className="contact-form pt-5 mt-2">
           <form
-            action="https://sendmail.w3layouts.com/submitForm"
+            action="SpiritWallet@gmail.com"
             method="post"
             className="cont-form p-sm-5"
           >
@@ -154,9 +134,6 @@ function contact() {
   {/* //contact page */}
   {/* Js scripts */}
   {/* move top */}
-  <button onclick="topFunction()" id="movetop" title="Go to top">
-    <span className="fa fa-level-up" aria-hidden="true" />
-  </button>
   {/* //move top */}
   {/* common jquery plugin */}
   {/* //common jquery plugin */}

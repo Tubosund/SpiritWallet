@@ -2,28 +2,41 @@ import React from 'react'
 
 function signup() {
   return (
-<>
-  <meta charSet="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
-  <title>Sign Up</title>
-  <link rel="shortcut icon" href="assets/images/fav.jpg" />
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/fontawsom-all.min.css" />
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <div>
+{/* inner banner */}
+<div className="inner-banner">
+<section className="w3l-breadcrumb">
+  <div className="container">
+    <h4 className="inner-text-title font-weight-bold text-white mb-sm-3 mb-2">
+    Sign Up
+    </h4>
+    <ul className="breadcrumbs-custom-path">
+      <li>
+        <a href="/home">Home</a>
+      </li>
+      <li className="active">
+        <span className="fa fa-chevron-right mx-2" aria-hidden="true" />{" "}
+        Sign Up
+      </li>
+    </ul>
+  </div>
+</section>
+</div>
+<div>
   <div className="container-fluid ">
     <div className="container ">
       <div className="row cdvfdfd">
-        <div className="col-lg-10 col-md-12 login-box">
+        <div className="col-lg-11 col-md-12 login-box">
           <div className="row">
-            <div className="col-lg-6 col-md-6 log-det">
-              <div className="small-logo" href='/home'>
-                <i className="fab fa-asymmetrik" /> AccoTrac
+            <div className="col-lg-12 col-md-12 log-det">
+            <div className="small-logo">
+             <a className="navbar-brand gold-text" href="/home" style={{color: 'blue'}}>
+                <i className="fa-solid fa-bible mr-1" aria-hidden="true" />
+                SpiritWallet
+              </a>
               </div>
               <p className="dfmn">
-                Track, Manage, Thrive. Simplified finances for your business!
+              Nurture your spirit and practice faithful giving!
               </p>
               <div className="text-box-cont">
                 <div className="input-group mb-3">
@@ -35,8 +48,8 @@ function signup() {
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="Company Name"
-                    aria-label="Company Name"
+                    placeholder="Name"
+                    aria-label="Name"
                     aria-describedby="basic-addon1"
                   />
                 </div>
@@ -97,26 +110,13 @@ function signup() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 box-de">
-              <div className="inn-cover">
-                <div className="ditk-inf">
-                  <div className="small-logo">
-                    <i className="fab fa-asymmetrik" /> AccoTrac
-                  </div>
-                  <p>
-                    AccoTrac is your one stop shop for managing your finances
-                    and making your accounts healthy.
-                  </p>
-                  <a href="#"></a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</>
+  </div>
+  </div>
   )
 }
 

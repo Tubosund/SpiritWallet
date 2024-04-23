@@ -2,25 +2,35 @@ import React from 'react'
 
 function forgotpassword() {
   return (
-    <div><>
-    <meta charSet="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Reset Password</title>
-    <link rel="shortcut icon" href="assets/images/fav.jpg" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <div>
+{/* inner banner */}
+<div className="inner-banner">
+<section className="w3l-breadcrumb">
+  <div className="container">
+    <h4 className="inner-text-title font-weight-bold text-white mb-sm-3 mb-2">
+    Reset Password
+    </h4>
+    <ul className="breadcrumbs-custom-path">
+      <li>
+        <a href="/home">Home</a>
+      </li>
+      <li className="active">
+        <span className="fa fa-chevron-right mx-2" aria-hidden="true" />{" "}
+        Reset Password
+      </li>
+    </ul>
+  </div>
+</section>
+</div>
+<div>
     <div className="container-fluid ">
       <div className="container ">
         <div className="row cdvfdfd">
-          <div className="col-lg-10 col-md-12 login-box">
+          <div className="col-lg-11 col-md-12 login-box">
             <div className="row">
-              <div className="col-lg-6 col-md-6 log-det">
+              <div className="col-lg-12 col-md-12 log-det">
                 <div className="small-logo">
-                  <i className="fab fa-asymmetrik" /> Reset Password
+                  <i className="fa-Solid fa-Bible" /> Reset Password
                 </div>
                 <div className="text-box-cont">
                   <div className="input-group mb-3">
@@ -34,34 +44,6 @@ function forgotpassword() {
                       className="form-control"
                       placeholder="Email Address"
                       aria-label="Email Address"
-                      aria-describedby="basic-addon1"
-                    />
-                  </div>
-                  <div className="input-group mb-3">
-                    <div className="input-group-prepend">
-                      <span className="input-group-text" id="basic-addon1">
-                        <i className="fas fa-lock" />
-                      </span>
-                    </div>
-                    <input
-                      type="password"
-                      className="form-control"
-                      placeholder="Enter New Password"
-                      aria-label="Password"
-                      aria-describedby="basic-addon1"
-                    />
-                  </div>
-                  <div className="input-group mb-3">
-                    <div className="input-group-prepend">
-                      <span className="input-group-text" id="basic-addon1">
-                        <i className="fas fa-lock" />
-                      </span>
-                    </div>
-                    <input
-                      type="password"
-                      className="form-control"
-                      placeholder="Confirm New Password"
-                      aria-label="Password"
                       aria-describedby="basic-addon1"
                     />
                   </div>
@@ -81,19 +63,6 @@ function forgotpassword() {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-6 col-md-6 box-de">
-                <div className="inn-cover">
-                  <div className="ditk-inf">
-                    <div className="small-logo">
-                      <i className="fab fa-asymmetrik" /> AccoTrac
-                    </div>
-                    <p>
-                      AccoTrac is your one stop shop for managing your finances
-                      and making your accounts healthy.
-                    </p>
-                    <a href="#"></a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -101,8 +70,7 @@ function forgotpassword() {
         </div>
       </div>
     </div>
-  </>
-  </div>
+    </div>
   )
 }
 

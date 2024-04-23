@@ -82,10 +82,17 @@ body {
   outline: 0 !important;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+.header-background {
+background-color: #000;
 }
 
 h1,
@@ -2731,7 +2738,7 @@ textarea.form-control.is-invalid {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #233a52;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -17538,3 +17545,61 @@ textarea {
 
 
 /*# sourceMappingURL=style-freedom.css.map */
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-box {
+  flex: 0 0 45%; /* Each box takes up 48% of the container width */
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 60px;
+  margin-bottom: 20px;
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.box-header h2 {
+  margin: 0;
+  color: #333;
+}
+
+.box-header i {
+  font-size: 24px;
+  color: #007bff;
+}
+
+.sectionv {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Optional: Set minimum height for full viewport */
+}
+.grid-container {
+  display: flex;
+  padding: 100px;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  grid-gap: 10px; /* Optional spacing between grid items */
+}
+
+.grid-item {
+  /* Optional styles for individual grid items */
+}
