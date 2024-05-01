@@ -44,7 +44,7 @@ function contact() {
                 <i className="fa fa-map-marker" aria-hidden="true" />
                 <div className="ml-3">
                   <h5 className="contact-text">Our Location:</h5>
-                  <p>Beside Royal Court International School, Hallelujah Estate, Osogbo.</p>
+                  <p>Hallelujah Estate, Osogbo.</p>
                 </div>
               </div>
             </div>
