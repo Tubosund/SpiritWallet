@@ -27,6 +27,8 @@ Install necessary dependencies (e.g., Node.js).
 Configure your backend environment.
 Run the Development Server:
 
+Screenshot (36).png
+
 Follow project instructions to start a local development server. This allows you to view and test the app in your browser.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
