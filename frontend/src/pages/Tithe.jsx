@@ -80,7 +80,7 @@ function TitheCalculator() {
       </div>
       <div className="tithe-total">
         <p>Total Amount: <span id="total-amount">&#8358;{totalAmount.toFixed(2)}</span></p>
-        <p>Tithe (10%): <span id="tithe-amount">{titheAmount.toFixed(2)}</span></p>
+        <p>Tithe (10%): <span id="tithe-amount">&#8358;{titheAmount.toFixed(2)}</span></p>
       </div>
       <div className="saved-data">
         <h2>Saved Data</h2>

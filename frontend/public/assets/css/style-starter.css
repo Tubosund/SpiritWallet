@@ -17640,3 +17640,11 @@ padding-bottom: 30px;
 .book-name{
   font-weight: bolder;
 }
+#tithe-amount{
+  font-size: 200%;
+  color: #007bff;
+}
+#total-amount{
+  font-size: 200%;
+  color: #007bff;
+}
