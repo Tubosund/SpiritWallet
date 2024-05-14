@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Dashboard = () => {
+
+const Dashboard = () => { 
   return (
     <div>
   <div className="inner-banner">
@@ -14,8 +15,9 @@ const Dashboard = () => {
           <a href="/home">Home</a>
         </li>
         <li className="active">
-          <span className="fa fa-chevron-right mx-2" aria-hidden="true" />{" "}
-          Dashboard
+          <a className="fa fa-chevron-right mx-2" aria-hidden="true" href ="/home">
+          Sign Out
+          </a>
         </li>
       </ul>
     </div>
@@ -27,10 +29,11 @@ const Dashboard = () => {
           {/* Tithe Box */}
           <div className="dashboard-box">
             <div className="box-header">
-              <h2>
-                <a href="/tithe">Tithe</a>
+              <h2>{/* Display total amount and tithe amount */}
+                <a href="/tithe">Tithe (10%):</a>
                 </h2>
               <i className="fas fa-money-bill-alt"></i> {/* Money icon */}
+               
             </div>
           </div>
 

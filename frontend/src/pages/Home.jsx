@@ -85,11 +85,10 @@ return (
           <div className="col-md-8">
             <div className="section-heading text-center mb-sm-5 mb-4">
               <h3 className="title-style text-white mb-2">
-              Tithing in the New & Old Testament
-              <p className="small">written by Bob Lotich, CEPF® </p>
+              Tithing, A Holy Command.
               </h3>
               <h4 className="leadd">
-              What is tithing?      
+              What is tithe?      
             </h4>
             <p className="lead text-white">
             Wikipedia defines the tithe:
@@ -132,7 +131,7 @@ return (
       <div className="container py-md-4 py-3">
         <div className="row align-items-center">
           <div className="col-md-5 col-float-lt">
-            <h3 className="title-big">Contact us now!</h3>
+            <h3 className="title-big">Contact Us Now!</h3>
             <p>For Online queries, please call us today</p>
           </div>
           <div className="col-md-7 float-rt text-md-right align-items-center mt-md-0 mt-4">

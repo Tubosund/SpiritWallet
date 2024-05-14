@@ -17633,3 +17633,10 @@ padding-bottom: 30px;
   font-size: xx-large;
   font-weight: bolder;
 }
+.dropdown{
+  padding: 4%;
+  font-weight: bolder;
+}
+.book-name{
+  font-weight: bolder;
+}

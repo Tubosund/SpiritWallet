@@ -27,6 +27,7 @@ function TitheCalculator() {
   };
 
   return (
+
     <div>
       <div className="inner-banner">
         <section className="w3l-breadcrumb">
@@ -95,7 +96,7 @@ function TitheCalculator() {
         ))}
       </div>
     </div>
-  );
-}
+  )
+};
 
 export default TitheCalculator;
